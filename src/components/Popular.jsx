@@ -24,7 +24,7 @@ function Popular() {
         return(
           <div key={recipe.id}> 
             <p>{recipe.title}</p>
-            {recipe.dairyFree ? <p>Dairy Free</p> : <p>Dairy</p>}
+            {recipe.dairyFree ? <p>Dairy Free</p> : <p>Contains Dairy</p>}
             <p>{}</p>
           </div>
         );
