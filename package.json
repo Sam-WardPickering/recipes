@@ -1,6 +1,7 @@
 {
   "name": "recipes",
   "version": "0.1.0",
+  "homepage": "https://sam-wardpickering.github.io/recipes/",
   "private": true,
   
   "dependencies": {
