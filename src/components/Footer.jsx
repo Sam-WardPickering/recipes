@@ -1,8 +1,11 @@
 import React from 'react'
 
+
 function Footer() {
   return (
-    <div>Footer</div>
+    <div>
+        <h4 className="footer">© Sam Ward-Pickering</h4>
+    </div>
   )
 }
 
