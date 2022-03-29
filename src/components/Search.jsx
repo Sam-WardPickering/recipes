@@ -10,7 +10,7 @@ function Search() {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    navigate('/searched/' + input);
+    navigate('/searched/' + input)
   };
     
   return (
@@ -24,11 +24,17 @@ function Search() {
 }
 
 const FormStyle = styled.form`
-    margin: 0rem 20rem;
+    margin: 0% 22% 0% 20%;
+    
+    
+    
+    
 
     div {
-        width: 100%;
+        width: 1000;
         position: relative;
+        
+
         
     }
 
@@ -42,7 +48,7 @@ const FormStyle = styled.form`
         border-radius: 1rem;
         outline: none;
         width: 100%;
-        
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     }
 
     svg {

@@ -5,6 +5,7 @@ import Search from './components/Search'
 import styled from 'styled-components'
 import { Link } from 'react-router-dom'
 import { GiKnifeFork } from 'react-icons/gi'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Search />
         <Category />
         <Pages />
+        <Footer />
       </BrowserRouter>
     </div>
   );

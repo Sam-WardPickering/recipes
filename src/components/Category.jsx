@@ -32,6 +32,7 @@ const List = styled.div`
     display: flex;
     justify-content: center;
     margin: 2rem 0rem;
+    
 
 `;
 
@@ -48,7 +49,8 @@ const SLink = styled(NavLink)`
     height: 6rem;
     cursor: pointer;
     transform: scale(0.8);
-
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    
     h4 {
         color: white;
         font-size: 0.8rem;
